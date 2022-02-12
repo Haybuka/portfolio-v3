@@ -310,6 +310,9 @@ footer{
     .banner .mouse{
         bottom: 10%;
     }
+    .banner div{
+        transform: translateY(-40px);
+    }
     .about .mouse,.in-touch .mouse{
       display: none;
     }
