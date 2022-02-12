@@ -98,6 +98,14 @@ header h3::after{
   height: 150px;
   transform: translate(-50%,-50%);
 }
+#newString{
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+}
+.typed-cursor{
+    opacity: 0 !important;
+}
 .mouse img{
     width: 100%;
     height: 100%;
@@ -311,7 +319,7 @@ footer{
         bottom: 10%;
     }
     .banner div{
-        transform: translateY(-40px);
+        transform: translateY(-60px);
     }
     .about .mouse,.in-touch .mouse{
       display: none;
