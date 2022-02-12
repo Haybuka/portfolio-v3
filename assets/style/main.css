@@ -296,9 +296,20 @@ footer{
     .container{
         width: auto;
     }
+    .banner,.about,.in-touch{
+        width: 100%;
+        height: 100vh;
+    }
+    .mouse{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width:530px){
+    .about .mouse,.in-touch .mouse{
+      display: none;
+    }
    .card{
        width: auto;
    }
