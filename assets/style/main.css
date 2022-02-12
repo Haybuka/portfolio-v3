@@ -223,6 +223,9 @@ header h3::after{
     background-color: var(--bkgCol);
     color: var(--lightBkg);
 } */
+.card:nth-child(even){
+    margin-top: 3rem;
+}
 .link{
     display: inline-block;
     color: inherit;
@@ -234,7 +237,8 @@ header h3::after{
     transform: translateY(-5px);
 }
 .card:hover .card-footer{
-    transform: translate(0);
+    /* transform: translate(0); */
+    display: block;
 }
 .img-fluid{
     width: 100%;
@@ -255,7 +259,8 @@ header h3::after{
 
 .card-footer{
     transition: all 0.25s ease-in;
-   transform: translateY(200px);
+   /* transform: translateY(200px); */
+   display: none;
    margin: 10px 0;
    padding: 15px 10px;
 }
