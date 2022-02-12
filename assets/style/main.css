@@ -308,7 +308,7 @@ footer{
 
 @media screen and (max-width:530px){
     .banner .mouse{
-        bottom: -10%;
+        bottom: 10%;
     }
     .about .mouse,.in-touch .mouse{
       display: none;
