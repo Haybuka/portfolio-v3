@@ -240,6 +240,10 @@ header h3::after{
     /* transform: translate(0); */
     display: block;
 }
+.card:active .card-footer{
+    /* transform: translate(0); */
+    display: block;
+}
 .img-fluid{
     width: 100%;
     height: 100%;
