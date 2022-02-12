@@ -295,7 +295,6 @@ footer{
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
 }
 
 @media screen and (max-width:1300px){
