@@ -54,7 +54,7 @@ body{
 
 
 header h3,footer h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: -5px;
     color: var(--textColorLight);
     text-transform: uppercase;
@@ -298,6 +298,7 @@ footer{
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-click{
@@ -317,9 +318,14 @@ background-size: cover;
 }
 .nav-click.display{
     transform: translate(0);
+    overflow-y: hidden;
 }
 .onHarmbugerClick.hide{
     display: none;
+}
+footer a{
+    color: var(--lightBkg);
+    text-decoration: none;
 }
 @media screen and (max-width:1300px){
     .container{
