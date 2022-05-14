@@ -199,8 +199,31 @@ header h3::after{
     width: 100%;
     position: relative;
 }
+.d-none{
+    display: hidden;
+}
 .projects h3{
     margin: 20px 0;
+}
+.project-toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    color: #0a3d62;
+}
+.project-toggle h4{
+    font-size: 16px;
+    cursor: pointer;
+}
+.project-toggle h4.active{
+    background-color: #0a3d62 ;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .card-group{
     display: flex;
