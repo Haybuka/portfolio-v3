@@ -200,8 +200,9 @@ header h3::after{
     position: relative;
 }
 .d-none{
-    display: hidden;
+    display: none;
 }
+
 .projects h3{
     margin: 20px 0;
 }
