@@ -5,6 +5,10 @@
     font-family: 'Poppins',sans-serif;
 }
 
+*::selection{
+    background-color: #fff;
+    color: #0a3d62;
+}
 :root{
     --lightBkg : #fff;
     --harmBkgColor:#ffffff;
