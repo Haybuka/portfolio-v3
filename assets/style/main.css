@@ -20,28 +20,46 @@
     height: 100px;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
-    margin: 40px auto;
+    margin: 50px auto;
     background-image: url(/assets/images/dev.png);
     background-size: cover;
     background-position: center;
   }
   .loader p{
-      transform: translateY(15px);
+      transform: translateY(40px);
+      font-size: 16px;
+      color: #0a3d62;
+      padding: 5px 20px;
+      position: relative;
   }
-  /* Safari */
-  /* @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  .loader p::after{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      background-color:#ffffff;
+      width: 0%;
+      height: 100%;
+      z-index: -5;
+    animation: full 1s linear infinite both;
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  } */
+.loader p::before{
+    position: absolute;
+    content: '';
+    bottom: -7%;
+    left: -5%;
+    background-color: #0a3d62;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+  @keyframes full {
+    0% { width: 0%; }
+    100% { width: 100%;}
+  }
 
 
-
-/* another loader ended  */
+/* loader ends  */
 *::selection{
     background-color: #fff;
     color: #0a3d62;
