@@ -34,7 +34,7 @@ vanilla.addEventListener('click',function(){
   setTimeout(() => {
      vanillaGroup.classList.remove('d-none')
      loader.classList.add('d-none')
-  }, 1000);
+  }, 1100);
 })
 
 react.addEventListener('click',function(){
@@ -49,7 +49,7 @@ react.addEventListener('click',function(){
   setTimeout(() => {
      reactGroup.classList.remove('d-none')
      loader.classList.add('d-none')
-  }, 1000);
+  }, 1100);
 })
 
 //end of toggle click event

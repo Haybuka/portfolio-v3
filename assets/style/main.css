@@ -41,7 +41,10 @@
       width: 0%;
       height: 100%;
       z-index: -5;
-    animation: full 1s linear infinite both;
+    animation: full 1s linear both;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 6px 5px 10px  rgba(0, 0, 0, 0.181);
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0 100%);
   }
 .loader p::before{
     position: absolute;
@@ -59,7 +62,7 @@
   }
 
 
-/* loader ends  */
+/* loader end  */
 *::selection{
     background-color: #fff;
     color: #0a3d62;
